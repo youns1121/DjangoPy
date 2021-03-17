@@ -5,7 +5,8 @@
 
 화면 UI 설계
 ===========================================
-![006](https://user-images.githubusercontent.com/77563750/111483274-008d0800-8778-11eb-96d2-cbef122b9f6e.jpg)
+![image](https://user-images.githubusercontent.com/77563750/111484944-8b223700-8779-11eb-93c4-34dd843121e2.png)
+
 
 
 테이블 설계
@@ -17,5 +18,11 @@
 로직 설계
 ===========================================
 ![image](https://user-images.githubusercontent.com/77563750/111484853-7645a380-8779-11eb-9edd-d54b1f2af0f8.png)
+
+
+
+URL 설계
+===========================================
+![image](https://user-images.githubusercontent.com/77563750/111486042-7befb900-877a-11eb-803b-9ff0972525b1.png)
 
 
