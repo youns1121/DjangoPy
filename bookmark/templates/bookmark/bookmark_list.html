@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Django Bookmark List</title>
+</head>
+
+<body>
+
+<div id="content">
+    <h1>Bookmark List</h1>
+
+    <ul>
+        {% for bookmark in object_list %} <!-- object_list 객체는 BookmarkLV 클래스형 뷰에서 넘겨주는 컨텍스트 변수-->
+            <li><a href="{% url 'detail' bookmark.id %}">{{ bookmark }}</a></li>  <!-- {{bookmark}} 템플릿 변수는 Bookmark 테이블의 특정 레코드 하나를 의미-->
+        {% endfor %}   <!-- %url % 템플릿 태그는 URL 패턴에서 URL 스트링을 추출하는 역할을 합니다. -->
+    </ul>
+</div>
+
+</body>
+</html>
